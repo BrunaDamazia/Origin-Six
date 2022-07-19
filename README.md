@@ -7,8 +7,8 @@ Projeto criado por meio da 6° edição da NLW da Rocketseat (instituição de e
 
 ## Documentação de cores
 
-| Cor                                         | Hexadecimal                                                      |
-| ------------------------------------------- | ---------------------------------------------------------------- |
+| Cor               | Hexadecimal                                                |
+| -----------------       | ---------------------------------------------------------------- |
 | Cor primária (color-primary)                | ![#ffa724](https://via.placeholder.com/10/ffa724?text=+) #ffa724 |
 | Cor secundária (color-second)               | ![#fcd397](https://via.placeholder.com/10/fcd397?text=+) #fcd397 |
 | Cor escura (color-dark)                     | ![#30220e](https://via.placeholder.com/10/30220e?text=+) #30220e |
