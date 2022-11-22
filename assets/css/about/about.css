@@ -1,0 +1,38 @@
+#about .container {
+    margin: 0;
+  }
+  
+  #about .image {
+    position: relative;
+  }
+
+  #about .image img {
+    right: 2.93rem;
+  }
+  
+  #about .image::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: var(--cor-p1);
+    position: absolute;
+    top: -8.3%;
+    left: -33%;
+    border-radius: 0.25rem;
+  }
+  
+  #about .text {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    text-align: left;
+  }
+  
+  #about .text h1 {
+    margin-bottom: 1rem;
+  }
+  
+  #about .text p {
+    margin-bottom: 2rem;
+    max-width: 100%;
+  }
+ 

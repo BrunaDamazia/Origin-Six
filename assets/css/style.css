@@ -1,0 +1,16 @@
+@import "./global/global.css";
+@import "./utilidades/cores.css";
+@import "./utilidades/tipografia.css";
+@import "./utilidades/componentes.css";
+
+
+
+@import "./home/home.css";
+@import "./header/header.css";
+@import "./about/about.css";
+@import "./services/services.css";
+@import "./testimonials/testimonials.css";
+@import "./testimonials/swiper.css";
+@import "./contact/contact.css";
+@import "./footer/footer.css";
+@import "./responsivo.css"

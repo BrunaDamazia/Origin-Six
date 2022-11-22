@@ -1,0 +1,70 @@
+.logo {
+  font: 700 1.31rem var(--title-font);
+  color: var(--cor-p4);
+}
+
+.logo-alt span {
+  color: var(--cor-1);
+}
+
+.title {
+  font: 700 var(--title-font-size) var(--title-font);
+  color: var(--cor-p3);
+  -webkit-font-smoothing: auto;
+}
+
+.button {
+  background-color: var(--cor-p2);
+  color: var(--cor-2);
+  height: 3.5rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 2rem;
+  border-radius: 0.25rem;
+  font: 500 1rem "DM Sans", sans-serif;
+  transition: background 0.5s;
+}
+
+.button:hover {
+  background: var(--cor-p1);
+  color: var(--cor-p3);
+}
+
+.image img {
+  position: relative;
+  border-radius: 0.25rem;
+}
+
+.divider-1 {
+  height: 1px;
+  background: linear-gradient(270deg, #534A97 0%, #f9f9f9 100%);
+}
+
+.divider-2 {
+  height: 1px;
+  background: linear-gradient(270deg, #f9f9f9 0%, #534A97 100%);
+}
+
+.back-to-top {
+  background: var(--cor-p2);
+  color: var(--cor-3);
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  padding: 1rem;
+  clip-path: circle();
+  line-height: 0;
+
+  visibility: hidden;
+  opacity: 0;
+
+  transition: 0.3s;
+  transform: translateY(100%);
+}
+
+.back-to-top.show {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
